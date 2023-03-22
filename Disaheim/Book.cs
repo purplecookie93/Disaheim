@@ -6,7 +6,34 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    internal class Book
+    public class Book
     {
+
+        public string ItemId { get; set; }
+
+        public string Title { get; set; }
+
+        public double Price { get; set; }   
+
+        public Book (string itemId, string title, double price)
+        {
+            this.ItemId = itemId;
+            this.Title = title;
+            this.Price = price;
+        }
+
+        public Book (string itemId, string title) :
+            this (itemId, title, 0)
+        { }
+
+        public Book (string itemId) :
+            this (itemId, "", 0)
+        { }
+
+        public override string ToString()
+        {
+            return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
+        }
+
     }
 }

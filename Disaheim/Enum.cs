@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class Enum
+    public enum Level
     {
-        public enum Level
-        {
-            low,
-            medium,
-            high
-        }
+        
+       low,
+       medium,
+       high
+      
     }
 }

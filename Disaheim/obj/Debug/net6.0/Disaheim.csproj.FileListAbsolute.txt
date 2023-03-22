@@ -1,0 +1,15 @@
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\bin\Debug\net6.0\Disaheim.exe
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\bin\Debug\net6.0\Disaheim.deps.json
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\bin\Debug\net6.0\Disaheim.runtimeconfig.json
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\bin\Debug\net6.0\Disaheim.dll
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\bin\Debug\net6.0\Disaheim.pdb
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.csproj.AssemblyReference.cache
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.AssemblyInfoInputs.cache
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.AssemblyInfo.cs
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.csproj.CoreCompileInputs.cache
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.dll
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\refint\Disaheim.dll
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.pdb
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\Disaheim.genruntimeconfig.cache
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\Disaheim\obj\Debug\net6.0\ref\Disaheim.dll
