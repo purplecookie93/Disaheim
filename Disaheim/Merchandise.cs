@@ -8,9 +8,9 @@ namespace Disaheim
 {
    public abstract class Merchandise
     {
+        // Der ligger en default constructor "bagved"
+
         public string ItemId { get; set; }
-
-
 
         public override string ToString()
         {

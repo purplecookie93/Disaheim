@@ -13,14 +13,14 @@ namespace Disaheim
 
         public double Price { get; set; }   
 
-        public Book (string itemId, string title, double price) : base(itemId)
+        public Book (string itemId, string title, double price)
         {
             this.ItemId = itemId;
             this.Title = title;
             this.Price = price;
         }
 
-        public Book (string itemId, string title) : base(itemId)
+        public Book (string itemId, string title)
         {
             this.ItemId = itemId;
             this.Title = title;
@@ -29,7 +29,7 @@ namespace Disaheim
             
         
 
-        public Book (string itemId) : base (itemId)
+        public Book (string itemId)
         { 
             this.ItemId = itemId;
             this.Title = "";

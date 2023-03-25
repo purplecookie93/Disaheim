@@ -28,5 +28,22 @@ namespace Disaheim
             }
         }
 
+        public double GetValueOfCourse(Course course)
+        {
+            // 875,00 pr påbegyndt time 
+
+            // 60 min = 1 time
+            // 61 min = 2 timer 
+
+            int totalHours = course.DurationInMinutes / 60; 
+
+            if (course.DurationInMinutes % 60 != 0 )
+            {
+                totalHours++;
+            }
+
+            return totalHours * 875.00;
+        }
+
     }
 }
