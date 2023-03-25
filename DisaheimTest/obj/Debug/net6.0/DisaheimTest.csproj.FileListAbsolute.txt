@@ -103,3 +103,5 @@ C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\obj\Deb
 C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\obj\Debug\net6.0\DisaheimTest.pdb
 C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\obj\Debug\net6.0\DisaheimTest.genruntimeconfig.cache
 C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\obj\Debug\net6.0\ref\DisaheimTest.dll
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\bin\Debug\net6.0\UtilityLib.dll
+C:\Users\charl\Documents\Datamatiker\Visual Studio\Disaheim\DisaheimTest\bin\Debug\net6.0\UtilityLib.pdb

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Disaheim;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Disaheim
+namespace UtilityLib
 {
     public class Utility
     {
