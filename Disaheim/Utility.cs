@@ -9,25 +9,51 @@ namespace Disaheim
 {
     public class Utility
     {
-        public double GetValueOfBook (Book book) 
-        {
-            return book.Price;
-        }
+        //public double GetValueOfMerchandise (Book book) 
+        //{
+        //    return book.Price;
+        //}
 
-        public double GetValueOfAmulet(Amulet amulet) 
+        //public double GetValueOfMerchandise(Amulet amulet) 
+        //{
+        //    switch (amulet.Quality)
+        //    {
+        //        case Level.low:
+        //            return 12.5;
+        //        case Level.medium:
+        //            return 20.0;
+        //        case Level.high:
+        //            return 27.5;
+
+        //        default: return 20.0;
+        //    }
+        //}
+
+        public double GetValueOfMerchandise(Merchandise merchandise)
         {
-            switch (amulet.Quality)
+            if (merchandise.GetType() == typeof(Book) ) 
             {
-                case Level.low:
-                    return 12.5;
-                case Level.medium:
-                    return 20.0;
-                case Level.high:
-                    return 27.5;
-
-                default: return 20.0;
+                return (merchandise as Book).Price;
             }
+            if(merchandise.GetType() == typeof(Amulet))
+            {
+              switch ((merchandise as Amulet).Quality)
+                {
+                    case Level.low:
+                        return 12.5;
+                    case Level.medium:
+                        return 20.0;
+                    case Level.high:
+                        return 27.5;
+
+                    default: return 20.0;
+                }
+            }
+            return 0;
+
         }
+
+
 
         public double GetValueOfCourse(Course course)
         {

@@ -9,25 +9,24 @@ namespace Disaheim
     public class Controller
     {
         private CourseRepository courseRepository;
-        private BookRepository bookRepository;
-        private AmuletRepository amuletRepository;
+        private MerchandiseRepository merchandiseRepository;
+        
 
 
         public Controller()
         {
-            bookRepository = new BookRepository();
-            amuletRepository = new AmuletRepository();
+            merchandiseRepository = new MerchandiseRepository();
             courseRepository = new CourseRepository();
         }
 
         public void AddToList(Book book)
         {
-            bookRepository.AddBook(book);
+            merchandiseRepository.AddMerchandise(book);
         }
 
         public void AddToList(Amulet amulet)
         {
-            amuletRepository.AddAmulet(amulet);
+            merchandiseRepository.AddMerchandise(amulet);
         }
 
         public void AddToList(Course course)
