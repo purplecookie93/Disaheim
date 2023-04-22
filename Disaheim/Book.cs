@@ -26,8 +26,6 @@ namespace Disaheim
             this.Title = title;
             this.Price = 0; 
         }
-            
-        
 
         public Book (string itemId)
         { 
