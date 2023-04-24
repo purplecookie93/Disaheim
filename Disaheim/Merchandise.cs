@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-   public abstract class Merchandise
+   public abstract class Merchandise : IValuable
     {
         // Der ligger en default constructor "bagved"
 

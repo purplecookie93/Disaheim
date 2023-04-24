@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    public class Course
+    public class Course : IValuable
     {
         public string Name { get; set; }
 
