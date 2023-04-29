@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disaheim", "Disaheim.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisaheimTest", "..\DisaheimTest\DisaheimTest.csproj", "{1EF4C9C5-ABF4-4F37-8A3D-D84E94A1346D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLib", "..\UtilityLib\UtilityLib.csproj", "{6177D837-6DA3-4B03-B888-0E5ADD425C08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityLib", "..\UtilityLib\UtilityLib.csproj", "{6177D837-6DA3-4B03-B888-0E5ADD425C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -27,14 +27,14 @@ namespace Disaheim
             return null;
         }
 
-        public double GetTotalValue()
-        {
-            double total = 0;
-            foreach (Course course in courses) 
-            {
-                total += GetValueOfCourse(course); 
-            }
-            return total;
-        }
+        //public double GetTotalValue()
+        //{
+        //    double total = 0;
+        //    foreach (Course course in courses) 
+        //    {
+        //        total += GetValueOfCourse(course); 
+        //    }
+        //    return total;
+        //}
     }
 }

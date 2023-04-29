@@ -29,48 +29,5 @@ namespace Disaheim
         //    }
         //}
 
-        public double GetValueOfMerchandise(Merchandise merchandise)
-        {
-            if (merchandise.GetType() == typeof(Book) ) 
-            {
-                return (merchandise as Book).Price;
-            }
-            if(merchandise.GetType() == typeof(Amulet))
-            {
-              switch ((merchandise as Amulet).Quality)
-                {
-                    case Level.low:
-                        return 12.5;
-                    case Level.medium:
-                        return 20.0;
-                    case Level.high:
-                        return 27.5;
-
-                    default: return 20.0;
-                }
-            }
-            return 0;
-
-        }
-
-
-
-        public double GetValueOfCourse(Course course)
-        {
-            // 875,00 pr påbegyndt time 
-
-            // 60 min = 1 time
-            // 61 min = 2 timer 
-
-            int totalHours = course.DurationInMinutes / 60; 
-
-            if (course.DurationInMinutes % 60 != 0 )
-            {
-                totalHours++;
-            }
-
-            return totalHours * 875.00;
-        }
-
     }
 }

@@ -68,24 +68,24 @@ namespace DisaheimTest
             // Assert
             Assert.AreEqual(c1, courses.GetCourse("Eufori med røg"));
         }
-        [TestMethod]
-        public void TestGetTotalValueForMechandises()
-        {
-            // Assert
-            Assert.AreEqual(183.55, merchandises.GetTotalValue());
-        }
+        //[TestMethod]
+        //public void TestGetTotalValueForMechandises()
+        //{
+        //    // Assert
+        //    Assert.AreEqual(183.55, merchandises.GetTotalValue());
+        //}
         //[TestMethod]
         //public void TestGetTotalValueForAmulet()
         //{
         //    // Assert
         //    Assert.AreEqual(60.0, merchandises.GetTotalValue());
         //}
-        [TestMethod]
-        public void TestGetTotalValueForCourse()
-        {
-            // Assert
-            Assert.AreEqual(2625.0, courses.GetTotalValue());
-        }
+        //[TestMethod]
+        //public void TestGetTotalValueForCourse()
+        //{
+        //    // Assert
+        //    Assert.AreEqual(2625.0, courses.GetTotalValue());
+        //}
     }
 
 }

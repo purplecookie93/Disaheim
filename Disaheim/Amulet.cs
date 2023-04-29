@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Net.Security;
@@ -10,6 +11,9 @@ namespace Disaheim
 {
     public class Amulet : Merchandise
     {
+        static double LowQualityValue = 12.5;
+        static double MediumQualityValue = 20.0;
+        static double HighQualityValue = 27.5;
         
         public string Design { get; set; }
 
@@ -36,12 +40,24 @@ namespace Disaheim
            this.Design = design;
         }
 
-        
-       
-
         public override string ToString()
         {
             return $"ItemId: {ItemId}, Quality: {Quality}, Design: {Design}";
+        }
+
+        public override double GetValue()
+        {
+            switch (Quality)
+            {
+                case Level.low:
+                    return LowQualityValue;
+                case Level.medium:
+                    return MediumQualityValue;
+                case Level.high:
+                    return HighQualityValue;
+
+                default: return MediumQualityValue;
+            }
         }
     }
 }

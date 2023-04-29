@@ -24,15 +24,15 @@ namespace Disaheim
             return null;
         }
 
-        public double GetTotalValue()
-        {
-            double total = 0;
-            foreach (Merchandise merchandise in merchandises)
-            {
-                total += GetValueOfMerchandise(merchandise);
-            }
-            return total;
-        }
+        //public double GetTotalValue()
+        //{
+        //    double total = 0;
+        //    foreach (Merchandise merchandise in merchandises)
+        //    {
+        //        total += GetValueOfMerchandise(merchandise);
+        //    }
+        //    return total;
+        //}
 
        
     }

@@ -34,6 +34,8 @@ namespace Disaheim
             this.Price = 0; 
         }
 
+        public override double GetValue() { return this.Price; }
+
         public override string ToString() 
         {
             return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";

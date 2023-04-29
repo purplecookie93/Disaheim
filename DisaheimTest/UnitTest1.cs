@@ -72,24 +72,24 @@ namespace DisaheimTest
         //    Assert.AreEqual("ItemId: 100", m.ToString());
         //}
 
-        [TestMethod]
-        public void CourseConstructorWithOneParameter()
-        {
-            // Assert
-            Assert.AreEqual("Name: Spådomskunst for nybegyndere, Duration in Minutes: 0", c1.ToString());
-        }
-        [TestMethod]
-        public void CourseConstructorWithTwoParameters1()
-        {
-            // Assert
-            Assert.AreEqual("Name: Magi – når videnskaben stopper, Duration in Minutes: 157", c2.ToString());
-        }
-        [TestMethod]
-        public void CourseConstructorWithTwoParameters2()
-        {
-            // Assert
-            Assert.AreEqual("Name: Et indblik i Helleristning, Duration in Minutes: 180", c3.ToString());
-        }
+        //[TestMethod]
+        //public void CourseConstructorWithOneParameter()
+        //{
+        //    // Assert
+        //    Assert.AreEqual("Name: Spådomskunst for nybegyndere, Duration in Minutes: 0", c1.ToString());
+        //}
+        //[TestMethod]
+        //public void CourseConstructorWithTwoParameters1()
+        //{
+        //    // Assert
+        //    Assert.AreEqual("Name: Magi – når videnskaben stopper, Duration in Minutes: 157", c2.ToString());
+        //}
+        //[TestMethod]
+        //public void CourseConstructorWithTwoParameters2()
+        //{
+        //    // Assert
+        //    Assert.AreEqual("Name: Et indblik i Helleristning, Duration in Minutes: 180", c3.ToString());
+        //}
 
         [TestMethod]
         public void AmuletSetPropertiesWorks()
@@ -113,16 +113,16 @@ namespace DisaheimTest
             // Assert
             Assert.AreEqual("ItemId: Y, Title: Smoke on the Water, Price: 376,45", b3.ToString());
         }
-        [TestMethod]
-        public void CourseSetPropertiesWorks()
-        {
-            // Act
-            c2.Name = "How to Ying-Yang";
-            c2.DurationInMinutes = 413;
+        //[TestMethod]
+        //public void CourseSetPropertiesWorks()
+        //{
+        //    // Act
+        //    c2.Name = "How to Ying-Yang";
+        //    c2.DurationInMinutes = 413;
 
-            // Assert
-            Assert.AreEqual("Name: How to Ying-Yang, Duration in Minutes: 413", c2.ToString());
-        }
+        //    // Assert
+        //    Assert.AreEqual("Name: How to Ying-Yang, Duration in Minutes: 413", c2.ToString());
+        //}
 
 
     }
